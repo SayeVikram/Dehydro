@@ -21,24 +21,21 @@ function Home(){
         top: "350px"
     };
 
-    const back = {
-        backgroundImage: `url(${background})`,
-        width: '1500px',
-        height: '1000px',
-        marginRight: '0.8rem'
-    };
 
     return (
     
-
+    <div>
     <body> 
     <section class="bubble">
+        <div class='container'>
         <center>
         <h1 style={styles_1}>HEADER FOR THE ABOUT</h1>
         <p style={styles_2}>EXPLAINATION</p>
         </center>
+        </div>
     </section>
     </body>   
+    </div>
  
     );
 }
